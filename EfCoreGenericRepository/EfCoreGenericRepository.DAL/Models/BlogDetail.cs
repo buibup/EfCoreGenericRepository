@@ -5,7 +5,7 @@ using System.Text;
 
 namespace EfCoreGenericRepository.DAL.Models
 {
-    class BlogDetail
+    public class BlogDetail
     {
         [Key]
         public int BlogId { get; set; }
